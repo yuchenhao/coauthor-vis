@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Yuchen Hao",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "2000-2015 HPCA/ISCA/MICRO Co-author Graph",
+    "more": "<h3>Data and Visualization</h3><p>Data was collected from DBLP dataset and laid out with Gephi. The interactive display is created with the Sigma.js library, JavaScipt, and CSS based on an earlier interface by Greenpeace.\nPlease note that this is an experimental visualization that may not work on all browsers. It has been tested to work on Firefox 12, Chrome 18, Android Ice Cream Sandwich and Jelly Bean, and iPad 2.\nThe data was parsed by Diyu Zhou and the visualization produced by Yuchen Hao.</p>",
+    "intro": "\n"
+  },
+  "legend": {
+    "edgeLabel": "A coauthor relationship between two authors",
+    "colorLabel": "Color represents grouping",
+    "nodeLabel": "An author"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.5,
+      "maxNodeSize": 10,
+      "maxEdgeSize": 0.6,
+      "minNodeSize": 2
+    },
+    "drawingProperties": {
+      "labelThreshold": 7,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "undirected",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 30,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
