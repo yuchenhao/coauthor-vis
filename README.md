@@ -12,7 +12,6 @@ The following link showcases the visualization effect. <br/>
 http://www.cs.ucla.edu/~haoyc/coauthor-vis/
 
 Template provided by InteractiveVis project
-
 http://blogs.oii.ox.ac.uk/vis/ <br/>
 https://github.com/oxfordinternetinstitute/InteractiveVis/
 
