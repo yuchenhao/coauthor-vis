@@ -9,18 +9,18 @@
   },
   "text": {
     "title": "2000-2015 HPCA/ISCA/MICRO Co-author Graph",
-    "more": "<h3>Data and Visualization</h3><p>Data was collected from DBLP dataset and laid out with Gephi. The interactive display is created with the Sigma.js library, JavaScipt, and CSS based on an earlier interface by Greenpeace.\nPlease note that this is an experimental visualization that may not work on all browsers. It has been tested to work on Firefox 12, Chrome 18, Android Ice Cream Sandwich and Jelly Bean, and iPad 2.\nThe data was parsed by Diyu Zhou and the visualization produced by Yuchen Hao.</p>",
-    "intro": "\n"
+    "more": "<h3>Description</h3>This network graph shows the co-author relationships between researchers who published papers in top conferences in the field of computer architecture. Each node represents an author, and a tie between two authors represents a co-author relationship: that is, a tie is present only on the graph if two authors' names appear in the same publication . The nodes are positioned according to a force-directed algorithm to move highly connected nodes close together and less connected nodes further apart. The colours represent different communities found by a standard community detection algorithm.<br/><h3>Data and Visualization</h3>Data was collected from DBLP dataset and laid out using R and Gephi. The interactive display is created with the Sigma.js library, JavaScipt, and CSS based on the template provided by the Oxford Internet Institure. The visualization is part of the UCLA CS246: Web Information Management project to visualize the co-author graph of computer architecture research.<br/>Please note that this is an experimental visualization that may not work on all browsers. It has been tested to work on Firefox 12, Chrome 18, Android Ice Cream Sandwich and Jelly Bean, and iPad 2.<br/>The data was collected by Diyu Zhou and Jiayao Li and the visualization produced by <a href=\"http://www.cs.ucla.edu/~haoyc\">Yuchen Hao</a>. The source code is available on <a href=\"https://github.com/yuchenhao/coauthor-vis\">Github</a>.",
+    "intro": ""
   },
   "legend": {
-    "edgeLabel": "A coauthor relationship between two authors",
-    "colorLabel": "Color represents grouping",
+    "edgeLabel": "A co-author relationship between two authors",
+    "colorLabel": "Group based on modularity",
     "nodeLabel": "An author"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Label",
-    "hoverBehavior": "dim"
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": ""
   },
   "informationPanel": {
     "imageAttribute": false,
@@ -28,18 +28,18 @@
   },
   "sigma": {
     "graphProperties": {
-      "minEdgeSize": 0.5,
-      "maxNodeSize": 10,
-      "maxEdgeSize": 0.6,
-      "minNodeSize": 2
+      "minEdgeSize": 0.9,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 2,
+      "minNodeSize": 1
     },
     "drawingProperties": {
       "labelThreshold": 7,
       "hoverFontStyle": "bold",
-      "defaultEdgeType": "undirected",
+      "defaultEdgeType": "curve",
       "defaultLabelColor": "#000",
       "defaultLabelHoverColor": "#fff",
-      "defaultLabelSize": 30,
+      "defaultLabelSize": 25,
       "activeFontStyle": "bold",
       "fontStyle": "bold",
       "defaultHoverLabelBGColor": "#002147",
