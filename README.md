@@ -11,7 +11,7 @@ Data was collected from DBLP dataset and laid out using R and Gephi. The interac
 The following link showcases the visualization effect. <br/>
 http://www.cs.ucla.edu/~haoyc/coauthor-vis/
 
-Template provided by InteractiveVis project
+Template provided by InteractiveVis project <br/>
 http://blogs.oii.ox.ac.uk/vis/ <br/>
 https://github.com/oxfordinternetinstitute/InteractiveVis/
 
